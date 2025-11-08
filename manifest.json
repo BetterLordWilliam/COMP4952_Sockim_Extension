@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "sockim",
+    "version": "1.0",
+
+    "description": "chat application in the browser (based).",
+
+    "icons": {
+        "48": "icons/message.png"
+    },
+
+    "permissions": ["activeTab"],
+
+    "browser_action": {
+        "default_icon": "icons/message.png",
+        "default_title": "Open Sockim"
+    },
+
+    "sidebar_action": {
+        "default_icon": "icons/message.png",
+        "default_title": "sockim",
+        "default_panel": "popup/sockim.html",
+        "open_at_install": false
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
