@@ -4,7 +4,7 @@
 
 # Sockim Extension
 
-Browser based instant messaging application.
+Welcome to Sockim, the high-performance instant messaging extension designed specifically for the Firefox browser. Sockim is built on robust ASP.NET technology, delivering quick, reliable communication without forcing you to break your browsing flow.
 
 You can try the application [here](https://sockim.azurewebsites.net)!
 
